@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #A8A8A8;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="60.0" prefWidth="1280.0" style="-fx-background-color: #0000FF;" />
+      <Pane layoutX="68.0" layoutY="88.0" prefHeight="250.0" prefWidth="450.0" style="-fx-background-color: #fffafa; -fx-border-color: #0000FF;">
+         <children>
+            <Label layoutY="-2.0" text="Transações">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Pane layoutX="3.0" layoutY="30.0" prefHeight="60.0" prefWidth="445.0" style="-fx-border-color: #0000FF;" />
+            <Pane layoutX="3.0" layoutY="94.0" prefHeight="60.0" prefWidth="445.0" style="-fx-border-color: #0000FF;" />
+            <Pane layoutX="3.0" layoutY="159.0" prefHeight="60.0" prefWidth="445.0" style="-fx-border-color: #0000FF;" />
+         </children>
+      </Pane>
+      <Pane layoutX="542.0" layoutY="88.0" prefHeight="250.0" prefWidth="300.0" style="-fx-background-color: #fffafa; -fx-border-color: #0000FF;">
+         <children>
+            <Label text="Receita">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="864.0" layoutY="88.0" prefHeight="250.0" prefWidth="300.0" style="-fx-background-color: #fffafa; -fx-border-color: #0000FF;">
+         <children>
+            <Label text="Despesas">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
